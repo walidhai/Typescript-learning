@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="navigate">
+        <p> Hello</p>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="https://www.myanimelist.net">Search</a>
+            </li>
+            <li>
+                <a href="index.html">Add</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mainbody">
+        <script>
+            animaFunc(){
+                document.getElementById("body").style.color ="white";
+            }
+        </script>
+        <button onclick="animaFunc()"></button>
+    </div>
 </body>
 </html>
